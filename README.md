@@ -3,17 +3,6 @@
 This repository contains the instructions for running the standard HPL
 benchmark as part of the UK-NNSS procurement.
 
-## Status
-
-Stable
-
-## Maintainers
-
-- @aturner-epcc ([https://github.com/aturner-epcc](https://github.com/aturner-epcc))
-
-**Important:** Please do not contact the benchmark maintainers directly with any questions.
-All questions on the benchmark must be submitted via the procurement response mechanism.
-
 ## Software
 
 - [HPL](https://www.netlib.org/benchmark/hpl/)
