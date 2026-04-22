@@ -20,7 +20,7 @@ Guidance on building the benchmark code is provided within the HPL package.
 
 ### Pre-approved code modifications
 
-Offerors are permitted to modify the benchmark in any way compatible with
+Bidders are permitted to modify the benchmark in any way compatible with
 Top500 submission guidelines.
 
 ## Running the benchmark
