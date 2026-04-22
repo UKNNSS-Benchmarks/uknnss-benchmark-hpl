@@ -3,19 +3,25 @@
 This repository contains the instructions for running the standard HPL
 benchmark as part of the UK-NNSS procurement.
 
+> [!IMPORTANT]
+> Please do not contact the benchmark or code maintainers directly with any questions. All questions must be submitted via the procurement response mechanism.
+
 ## Software
 
-- [HPL](https://www.netlib.org/benchmark/hpl/)
+Tarball: [HPL](https://www.netlib.org/benchmark/hpl/)
 
 ## Building the benchmark
 
-**Important:** All results submitted should be based on a version of HPL that
+> [!CAUTION]
+> All results submitted should be based on a version of HPL that
 meets [Top500 submission guidelines](https://top500.org/resources/frequently-asked-questions/).
 
-### Permitted modifications
+Guidance on building the benchmark code is provided within the HPL package.
 
-Offerors are permitted to modify the benchmark in any way compatible with Top500
-submission guidelines.
+### Pre-approved code modifications
+
+Offerors are permitted to modify the benchmark in any way compatible with
+Top500 submission guidelines.
 
 ## Running the benchmark
 
@@ -31,20 +37,6 @@ The bidder is required to run the following tests
   + A full system run of HPL using a minimum of 99% of all compute nodes under Top500/Green500 
     conditions that runs for at least 12 hours.
   + This run should provide data for a valid Top500/Green500 submission including power draw data.
-
-## Reporting results
-
-The primary figure of merit (FoM) is the HPL performance in Gflops.
-
-The bidder should provide:
-
-- For the single node runs: the minimum, maximum and mean single node HPL performance
-  across all nodes
-- Details on how the tests were run, including any batch job submission
-  scripts and HPL input files
-- All data printed to STDOUT by the HPL software for all HPL runs (single node and full system)
-- Data on energy use (in kWh) for each HPL run and peak power draw (in kW)
-  for each HPL run (per node for single node runs and aggregate for full system runs)
 
 ## License
 
