@@ -28,16 +28,21 @@ Top500 submission guidelines.
 ### Required tests
 
 The bidder is required to run the following tests
+- HPL performance on 50% of the system (or dual-injection portion if applicable)
+- HPL performance on full system
 
-- Single node HPL performance
-  + Single node HPL runs across all compute nodes that run for at least 1 hour.
-  + The difference between the maximum measured single-node performance and the minimum
-    measured single-node performance must be equal to or less than 5% of the mean measured single-node performance.
-- Full system HPL performance
-  + A full system run of HPL using a minimum of 99% of all compute nodes under Top500/Green500 
-    conditions that runs to completion.
-  + This run should provide data for a valid Top500/Green500 submission including power draw data.
+All tests should
+- Run under Top500/Green500 conditions for at least 1 hour.
+- Should provide data for a valid Top500/Green500 submission including power draw data.
 
 ## License
 
 This benchmark description and associated files are released under the MIT license.
+
+## Changelog
+
+The following changes to this document have been made since initial release:
+
+| <div style="width:90px">Date</div> | Change |
+|-----------:|--------|
+| 2026-06-25 | Update required tests |
